@@ -1,0 +1,260 @@
+body{
+	font-size: 12px;
+	margin: 0 auto;
+	font-family: Microsoft YaHei;
+
+}
+p,h3{
+	margin: 0;
+	padding: 0;
+}
+
+
+.header .logo{
+	width: 960px;
+	margin: 0 auto;
+	padding: 18px 0 18px 0;
+}
+.header img{
+	width: 146px;
+	height: 36px;
+}
+.header .nav{
+	background-color: #292929;
+}
+.header .nav ul{
+	width: 960px;
+	padding: 0;
+	margin: 0 auto;
+	list-style: none;
+	overflow: hidden;
+}
+.header .nav ul li{
+	float: left;
+}
+.header .nav ul li a{
+	color: #fff;
+	display: block;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 13px 22px 9px 15px;
+	border-bottom: solid 4px #292929;
+}
+.header .nav ul li a:hover{
+	color: red;
+}
+.header .nav ul li a.act{
+	color:#fff;
+	cursor: default;
+	border-bottom: solid 4px red;
+}
+
+
+#banner{
+	background-image: url("../images/bg.png");
+	background-repeat: repeat-x;
+}
+#banner .banner{
+	/*width: 1524px;*/
+	height: 298px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 52px;
+	background-image: url("../images/banner.png");
+	background-repeat: no-repeat;
+
+}
+#banner .banner .con{
+	width: 960px;
+	margin: 0 auto;
+
+}
+#banner .banner .slider{
+	float: left;
+	font-size: 36px;
+	color: #292929;
+	width: 600px;
+	text-align: center;
+	margin-top: 94px;
+	overflow: hidden;
+	position: relative;
+	height: 170px;
+
+}
+#banner .banner .slider ul{
+	list-style: none;
+	margin: 0;padding: 0;
+	width: 10000px;
+}
+#banner .banner .slider ul li{
+	float: left;
+	margin: 0;padding: 0;
+	width: 600px;
+	cursor: default;
+}
+
+#banner .banner .consult{
+	color: #868686;
+	font-size: 13px;
+	float: right;
+	background-image: url("../images/consult_bg.png");
+	background-repeat: no-repeat;
+	width: 248px;
+	height: 236px;
+	padding: 16px;
+	text-align: center;
+	margin-top: 15px;
+	padding-top: 30px;
+}
+#banner .banner .consult .tel{
+	color: #eb3e46;
+	font-size: 30px;
+	margin-top: 10px;
+}
+#banner .banner .consult .horiz{
+	height: 1px;
+	margin: 24px 0;
+	background: #efdcdd;
+}
+#banner .banner .consult .apply{
+	display: block;
+	text-decoration: none;
+	width: 200px;
+	height: 43px;
+	background-color: #eb3e46;
+	line-height: 43px;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 24px;
+	color: #eee;
+	border-radius: 5px;
+}
+#banner .banner .consult .apply:hover{
+	color: #fff;
+}
+#slider-nav{
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -52px;
+}
+#slider-nav a{
+	display: block;
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin: 0 7px;
+	background-color: #4d4d4d;
+	cursor: pointer;
+}
+#slider-nav a:hover,#slider-nav .act{
+	background-color: #ec3e47;
+}
+
+.wrap{
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.wrap .content{
+	overflow: hidden;
+}
+.wrap .content .item{
+	float: left;
+	width: 287px;
+	overflow: hidden;
+	margin-right: 49px;
+}
+.wrap .content .end{
+	margin-right: 0;
+}
+.wrap .content .item h3{
+	font-size: 16px;
+	margin-bottom: 36px;
+}
+.wrap .content .item .info{
+	overflow: hidden;
+	margin-bottom: 25px;
+	height: 85px;
+}
+.wrap .content .item .info img{
+	float: left;
+	width: 72px;
+	height: 48px;
+	margin-right: 2em;
+	margin-bottom: 1em;
+}
+.wrap .content .item .info p{
+	font-size: 12px;
+	color: #5e5c5d;
+}
+.wrap .content .item .viewBtn{
+	float: left;
+	display: block;
+	width: 84px;
+	height: 31px;
+	text-decoration: none;
+	background-image: url("../images/btn.png");
+	color: #fff;
+	text-align: center;
+	line-height: 31px;
+}
+.wrap .coop{
+	margin-top: 71px;
+	margin-bottom: 48px;
+	overflow: hidden;
+}
+.wrap .coop h2{
+	font-size: 24px;
+	text-align: center;
+	font-weight: normal;
+	line-height: 24px;
+	margin-top: 0;
+}
+.wrap .coop .item{
+	float: left;
+	width: 158px;
+	margin-right: 42px;
+	margin-top: 18px;
+}
+.wrap .coop .end{
+	margin-right: 0;
+}
+.wrap .coop .amount{
+	margin-top: 18px;
+	font-size: 16px;
+	color: #fff;
+	float: left;
+	width: 327px;
+	height: 84px;
+	padding: 0 16px;
+	padding-top: 14px;
+	background-image: url("../images/amount.png");
+	background-repeat: no-repeat;
+}
+.wrap .coop .amount .traffic{
+	font-size: 30px;
+	margin-top: 7px;
+}
+
+
+
+.footer{
+	color: #bebebe;
+	overflow: hidden;
+	font-size: 12px;
+	margin-top: 27px;
+	padding: 14px 0 14px 0;
+	background-color: #292929;
+}
+.footer .info{
+	width: 960px;
+	margin: 0 auto;
+}
+.footer .fl{
+	float: left;
+}
+.footer .fr{
+	float: right;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "CSRF Detector",
+  "version": "1.0",
+  "description": "Checks if form has CSRF protection or not.",
+  "browser_action": {
+    "default_icon": "csrf_icon.png",
+	"default_title": "CSRF Detector"
+  },
+  "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "csrf_detector.css" ],
+      "matches": [ "*://*/*" ]
+   } ],
+  "manifest_version": 2,
+  "permissions": [ "tabs", "*://*/*" ],
+  "background": {
+      "persistent": false,
+      "scripts": [ "event_handler.js" ]
+   }
+}
+
+  
